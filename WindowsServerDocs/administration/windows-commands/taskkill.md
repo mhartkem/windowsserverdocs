@@ -48,7 +48,7 @@ taskkill [/s <computer> [/u [<Domain>\]<UserName> [/p [<Password>]]]] {[/fi <Fil
 |SERVICES|eq, ne|Service name|
 |WINDOWTITLE|eq, ne|Window title|
 |MODULES|eq, ne|DLL name|
-## remarks
+## Remarks
 -   The WINDOWTITLE and STatUS filters are not supported when a remote system is specified.
 -   The wildcard character (**\***) is accepted for the **/im** option only when a filter is applied.
 -   Termination of remote processes is always carried out forcefully, regardless of whether the **/f** option is specified.
